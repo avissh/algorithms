@@ -1,11 +1,2 @@
-"""
-@author : majdoor
-"""
-
-#!usr/bin/python3
-
-n = int(input())
-if(n==2):
-    print("NO")
-else:
-    print(("YES","NO")[n%2])
+    def spider_opened(self, spider):
+        spider.logger.info('Spider opened: %s' % spider.name)
